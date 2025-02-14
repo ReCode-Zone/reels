@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Zoom in Effect</title>
+    <style>
+        body{
+            background-color: black;
+        }
+        .card{
+            margin: 20px auto;
+            width: 200px;
+            height: 300px;
+            border-radius: 10px;
+            background: url("images/girl-with-lotus.jpeg")
+            center center no-repeat;
+            background-size: 300px;          
+        }
+
+        .card:hover{
+            background-position: center center;
+            background-size: 450px;
+        }
+    </style>
+</head>
+<body>
+    <div class="card"></div>
+</body>
+</html>
