@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Load Animation | Squid game style</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+     <div class="loader">
+        <svg viewBox="0 0 80 80">
+            <circle class="path" cx="40" cy="40" r="32"></circle>
+            <circle class="moving-dot">
+                <animateMotion dur="3s" repeatCount="indefinite" values="8,40; 40,72; 72,40; 40,8;8,40;"
+                    keyTimes="0; 0.25; 0.5; 0.75; 1">
+                </animateMotion>
+            </circle>
+        </svg>
+    </div>
+
+    <div class="loader triangle">
+        <svg viewBox="0 0 86 80">
+            <polygon class="path" points="43 8 79 72 7 72"></polygon>
+            <circle class="moving-dot">
+                <animateMotion dur="3s" repeatCount="indefinite" values="25,40; 43,72; 61,40;25,40"
+                    keyTimes="0; 0.33; 0.66; 1">
+                </animateMotion>
+            </circle>
+
+        </svg>
+    </div>
+
+    <div class="loader">
+        <svg viewBox="0 0 80 80">
+            <rect class="path" x="8" y="8" width="64" height="64"></rect>
+            <circle class="moving-dot">
+                <animateMotion dur="3s" repeatCount="indefinite" values="8,40; 40,72; 72,40; 40,8; 8,40;"
+                    keyTimes="0; 0.25; 0.5; 0.75; 1">
+                </animateMotion>
+            </circle>
+        </svg>
+    </div>   
+</body>
+</html>

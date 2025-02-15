@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    padding: 32px;
+    place-items: center;
+    background-color: whitesmoke;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+p {
+    display: inline;
+    color: #cccccc;
+    background-image: linear-gradient(#cccccc, #cccccc);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: right;
+    transition: background-size 1500ms, color 1500ms;
+}
+
+p:hover{
+    background-size: 0% 100%;
+    color: #000000;
+}

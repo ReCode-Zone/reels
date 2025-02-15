@@ -1,0 +1,30 @@
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;  
+}
+
+.container {           
+    border: 2px solid white;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+}       
+
+.item {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    flex-grow: 1;
+    flex-basis: 200;
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: lightblue;
+}
