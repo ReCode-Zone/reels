@@ -1,0 +1,49 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #1e1e2e;
+    color: white;
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+}
+
+.box {
+    width: 400px;
+    height: 400px;
+    border: 2px solid white;
+    position: relative;
+    background-color: #2c2c3d;
+}
+
+.image {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    background-image: url('bg.png');
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+button {
+    background-color: #d03b5c;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #a02a45;
+}
